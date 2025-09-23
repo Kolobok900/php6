@@ -1,10 +1,8 @@
 <?php 
 
-namespace Vastilok\Php6;;
+namespace Vastilok\Php6;
 
-use Vastilok\Php6\Cheese;
-use Vastilok\Php6\Pepperoni;
-use vastilok\lib\PizzaStore;
+use vastilok\lib\Pizza;
 
 class Vegan extends Pizza
 {

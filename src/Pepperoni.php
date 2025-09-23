@@ -10,4 +10,3 @@ class Pepperoni extends Pizza
         parent::__construct("Пепперони", "Томатный соус", ["Пепперони", "Моцарелла"]);
     }
 }
-
