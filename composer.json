@@ -1,0 +1,10 @@
+{
+    "name": "vastilok/php6",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Vastilok\\Php6\\": "src/"
+        }
+    },
+    "require": {}
+}
