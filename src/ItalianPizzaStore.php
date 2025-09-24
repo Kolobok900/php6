@@ -4,12 +4,12 @@ namespace Vastilok\Php6;
 
 use Vastilok\Php6\Cheese;
 use Vastilok\Php6\Pepperoni;
-use vatilok\lib\PizzaStore;
+use vastilok\lib\PizzaStore;
 use Vastilok\Php6\Vegan;
 
 class ItalianPizzaStore extends PizzaStore
 {
-    public function createPizza(string $type)
+    public function createPizza(string $type):string
     {
         switch ($type) {
             case 'cheese':
