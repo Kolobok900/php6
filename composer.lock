@@ -1,0 +1,48 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "afa14b0cab95a8f40a9c88e04b3dbc7e",
+    "packages": [
+        {
+            "name": "vastilok/lib",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Kolobok900/library.git",
+                "reference": "a8a9f076568ac4faea9d099d76d4e62213ee604a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Kolobok900/library/zipball/a8a9f076568ac4faea9d099d76d4e62213ee604a",
+                "reference": "a8a9f076568ac4faea9d099d76d4e62213ee604a",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "Vastilok\\Lib\\": "src/"
+                }
+            },
+            "support": {
+                "source": "https://github.com/Kolobok900/library/tree/master",
+                "issues": "https://github.com/Kolobok900/library/issues"
+            },
+            "time": "2025-09-23T10:42:57+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "vastilok/lib": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

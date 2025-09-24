@@ -6,5 +6,13 @@
             "Vastilok\\Php6\\": "src/"
         }
     },
-    "require": {}
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Kolobok900/library"
+        }
+    ],
+    "require": {
+        "vastilok/lib": "dev-master"
+    }
 }
